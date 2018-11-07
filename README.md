@@ -385,4 +385,4 @@ npm run compodoc-serve
 
 ## License
 
-MIT © [Ricardo Sánchez Gregorio](mailto:me@richnologies.io)
+MIT © [Ricardo Sánchez Gregorio](mailto:tunji.adeyeri@gmail.com)
