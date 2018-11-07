@@ -32,7 +32,7 @@
         "skipTemplateCodegen": true,
         "annotateForClosureCompiler": true,
         "strictMetadataEmit": true,
-        "flatModuleOutFile": "angular-stripe.js",
-        "flatModuleId": "angular-stripe"
+        "flatModuleOutFile": "ngx-stripe.js",
+        "flatModuleId": "ngx-stripe"
     }
 }

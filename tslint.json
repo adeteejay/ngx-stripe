@@ -1,23 +1,7 @@
 {
-    "extends": [
-        "tslint-angular"
-    ],
-    "rules": {
-        "directive-selector": [
-            true,
-            "attribute",
-            [
-                "angular-stripe"
-            ],
-            "camelCase"
-        ],
-        "component-selector": [
-            true,
-            "element",
-            [
-                "angular-stripe"
-            ],
-            "kebab-case"
-        ]
-    }
+	"extends": [ "tslint-angular" ],
+	"rules": {
+		"directive-selector": [ true, "attribute", [ "ngx-stripe" ], "camelCase" ],
+		"component-selector": [ true, "element", [ "ngx-stripe" ], "kebab-case" ]
+	}
 }

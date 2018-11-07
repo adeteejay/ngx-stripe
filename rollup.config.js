@@ -29,6 +29,6 @@ export default {
 		globals: globals,
 		sourcemap: true,
 		exports: 'named',
-		amd: { id: 'angular-stripe' }
+		amd: { id: 'ngx-stripe' }
 	}
 };

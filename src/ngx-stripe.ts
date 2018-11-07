@@ -1,5 +1,5 @@
 // Public classes.
-export { NgxStripeModule } from './modules/angular-stripe.module';
+export { NgxStripeModule } from './modules/ngx-stripe.module';
 
 export { StripeCardComponent } from './components/stripe-card.component';
 
@@ -12,46 +12,35 @@ export { LazyStripeAPILoader } from './services/api-loader.service';
 export { WindowRef } from './services/window-ref.service';
 export { DocumentRef } from './services/document-ref.service';
 
-export {
-  Element,
-  ElementEventType,
-  ElementType,
-  ElementOptions,
-  ElementStyleAttributes
-} from './interfaces/element';
+export { Element, ElementEventType, ElementType, ElementOptions, ElementStyleAttributes } from './interfaces/element';
 
 export { Elements, ElementsOptions, FontElement } from './interfaces/elements';
 
 export {
-  Source,
-  UsageTypes,
-  FlowTypes,
-  SourceParams,
-  SourceData,
-  isSourceData,
-  SourceResult
+	Source,
+	UsageTypes,
+	FlowTypes,
+	SourceParams,
+	SourceData,
+	isSourceData,
+	SourceResult
 } from './interfaces/sources';
 
-export {
-  STRIPE_PUBLISHABLE_KEY,
-  STRIPE_OPTIONS,
-  StripeJS,
-  Options
-} from './interfaces/stripe';
+export { STRIPE_PUBLISHABLE_KEY, STRIPE_OPTIONS, StripeJS, Options } from './interfaces/stripe';
 
 export {
-  Token,
-  FieldCheck,
-  CardDataOptions,
-  TokenResult,
-  BankAccount,
-  BankAccountData,
-  Pii,
-  PiiData,
-  isBankAccount,
-  isBankAccountData,
-  isPii,
-  isPiiData
+	Token,
+	FieldCheck,
+	CardDataOptions,
+	TokenResult,
+	BankAccount,
+	BankAccountData,
+	Pii,
+	PiiData,
+	isBankAccount,
+	isBankAccountData,
+	isPii,
+	isPiiData
 } from './interfaces/token';
 
 export { Error, Address } from './interfaces/utils';

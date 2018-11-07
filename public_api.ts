@@ -1,1 +1,1 @@
-export * from './src/angular-stripe';
+export * from './src/ngx-stripe';
