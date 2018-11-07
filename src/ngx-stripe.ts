@@ -1,5 +1,5 @@
 // Public classes.
-export { NgxStripeModule } from './modules/ngx-stripe.module';
+export { NgxStripeModule } from './modules/angular-stripe.module';
 
 export { StripeCardComponent } from './components/stripe-card.component';
 

@@ -7,7 +7,7 @@
             true,
             "attribute",
             [
-                "ngx-stripe"
+                "angular-stripe"
             ],
             "camelCase"
         ],
@@ -15,7 +15,7 @@
             true,
             "element",
             [
-                "ngx-stripe"
+                "angular-stripe"
             ],
             "kebab-case"
         ]

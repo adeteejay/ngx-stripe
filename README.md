@@ -1,7 +1,7 @@
-# ngx-stripe
+# angular-stripe
 
-[![version](https://img.shields.io/npm/v/ngx-stripe.svg)](https://www.npmjs.com/package/ngx-stripe)
-[![license](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/ngx-stripe)
+[![version](https://img.shields.io/npm/v/angular-stripe.svg)](https://www.npmjs.com/package/angular-stripe)
+[![license](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/angular-stripe)
 
 Angular 2+ wrapper for StripeJS
 
@@ -16,7 +16,7 @@ There is a branch **6.x** for development to make the library compatible with
 Angular 6, to give it a try, use the next tag:
 
 ```bash
-$ npm install ngx-stripe@next --save
+$ npm install angular-stripe@next --save
 ```
 
 ## Installation
@@ -24,7 +24,7 @@ $ npm install ngx-stripe@next --save
 To install this library, run:
 
 ```bash
-$ npm install ngx-stripe --save
+$ npm install angular-stripe --save
 ```
 
 ## Using the library
@@ -45,7 +45,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { NgxStripeModule } from 'ngx-stripe';
+import { NgxStripeModule } from 'angular-stripe';
 
 @NgModule({
   declarations: [
@@ -84,7 +84,7 @@ Example component (more HTML and CSS examples can be found at the [Stripe Elemen
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 
-import { StripeService, Elements, Element as StripeElement, ElementsOptions } from "ngx-stripe";
+import { StripeService, Elements, Element as StripeElement, ElementsOptions } from "angular-stripe";
 
 @Component({
   selector: 'app-stripe-test',
@@ -165,7 +165,7 @@ by using a ViewChild, the public method getCard()
 ```xml
 <form novalidate (ngSubmit)="buy($event)" [formGroup]="stripeTest">
   <input type="text" formControlName="name" placeholder="Jane Doe">
-  <ngx-stripe-card [options]="cardOptions" [elementsOptions]="elementsOptions"></ngx-stripe-card>
+  <angular-stripe-card [options]="cardOptions" [elementsOptions]="elementsOptions"></angular-stripe-card>
   <button type="submit">
     BUY
   </button>
@@ -175,7 +175,7 @@ by using a ViewChild, the public method getCard()
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 
-import { StripeService, StripeCardComponent, ElementOptions, ElementsOptions } from "ngx-stripe";
+import { StripeService, StripeCardComponent, ElementOptions, ElementsOptions } from "angular-stripe";
 
 @Component({
   selector: 'app-stripe-test',
@@ -247,7 +247,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { NgxStripeModule } from 'ngx-stripe';
+import { NgxStripeModule } from 'angular-stripe';
 
 @NgModule({
   declarations: [
@@ -271,7 +271,7 @@ same methods of old StripeService.
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 
-import { StripeInstance, StripeFactoryService } from "ngx-stripe";
+import { StripeInstance, StripeFactoryService } from "angular-stripe";
 
 @Component({
   selector: 'app-stripe-test',
@@ -296,7 +296,7 @@ If you prefer to work the old StripeService, you can also update the key:
 ```typescript
 import { Component, OnInit } from '@angular/core';
 
-import { StripeService } from 'ngx-stripe';
+import { StripeService } from 'angular-stripe';
 
 @Component({
   selector: 'app-stripe-test',
@@ -323,7 +323,7 @@ you can now access both your elements instance and a reference to Stripe:
 ```typescript
 import { Component, OnInit } from '@angular/core';
 
-import { StripeService } from 'ngx-stripe';
+import { StripeService } from 'angular-stripe';
 
 @Component({
   selector: 'app-stripe-test',

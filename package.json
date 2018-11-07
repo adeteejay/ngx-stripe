@@ -1,11 +1,11 @@
 {
-	"name": "ngx-stripe",
+	"name": "angular-stripe",
 	"private": true,
 	"version": "0.8.0",
 	"description": "Build an Angular library compatible with AoT compilation and Tree shaking like an official package",
-	"main": "./bundles/ngx-stripe.umd.js",
-	"module": "./esm5/ngx-stripe.js",
-	"es2015": "./esm2015/ngx-stripe.js",
+	"main": "./bundles/angular-stripe.umd.js",
+	"module": "./esm5/angular-stripe.js",
+	"es2015": "./esm2015/angular-stripe.js",
 	"scripts": {
 		"build": "node build.js",
 		"test": "karma start",
@@ -16,16 +16,16 @@
 		"compodoc": "compodoc -p tsconfig.json",
 		"compodoc:serve": "compodoc -s"
 	},
-	"typings": "./ngx-stripe.d.ts",
+	"typings": "./angular-stripe.d.ts",
 	"author": "",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/adeteejay/ngx-stripe.git"
+		"url": "https://github.com/adeteejay/angular-stripe.git"
 	},
 	"bugs": {
-		"url": "https://github.com/adeteejay/ngx-stripe/issues"
+		"url": "https://github.com/adeteejay/angular-stripe/issues"
 	},
-	"homepage": "https://github.com/adeteejay/ngx-stripe",
+	"homepage": "https://github.com/adeteejay/angular-stripe",
 	"keywords": [ "angular", "javascript", "typescript" ],
 	"license": "MIT",
 	"dependencies": {

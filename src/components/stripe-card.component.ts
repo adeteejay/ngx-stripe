@@ -8,7 +8,7 @@ import { Elements, ElementsOptions } from '../interfaces/elements';
 import { StripeInstance } from '../services/stripe-instance.class';
 
 @Component({
-	selector: 'ngx-stripe-card',
+	selector: 'angular-stripe-card',
 	template: `<div class="field" #stripeCard></div>`
 })
 export class StripeCardComponent implements OnInit {
